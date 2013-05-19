@@ -1,0 +1,5 @@
+C:\Users\Tiago\Documents\Visual Studio 2012\Projects\BusinezMen\BusinezMen\bin\BusinezMen.dll
+C:\Users\Tiago\Documents\Visual Studio 2012\Projects\BusinezMen\BusinezMen\bin\BusinezMen.pdb
+C:\Users\Tiago\Documents\Visual Studio 2012\Projects\BusinezMen\BusinezMen\obj\Debug\BusinezMen.csprojResolveAssemblyReference.cache
+C:\Users\Tiago\Documents\Visual Studio 2012\Projects\BusinezMen\BusinezMen\obj\Debug\BusinezMen.dll
+C:\Users\Tiago\Documents\Visual Studio 2012\Projects\BusinezMen\BusinezMen\obj\Debug\BusinezMen.pdb

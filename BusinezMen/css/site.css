@@ -1,0 +1,147 @@
+﻿.container {
+    width: 859px;
+    max-height: 859px;
+    margin: 10px;
+    box-shadow: 0px 2px 7px #292929;
+}
+
+.center
+{
+margin-left:auto;
+margin-right:auto;
+width:859px;
+background-color:#828282;
+}
+
+body {
+    background-color: #fff;
+    font-size: .85em;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 859px;
+    color: #bbb7b7;
+}
+
+a {
+    color: #333;
+    outline: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: underline;
+}
+
+    a:link, a:visited,
+    a:active, a:hover {
+        color: #333;
+    }
+
+.map
+{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    border: #555555 2px solid;
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.5em;
+    color: #000;
+}
+
+h1 {
+    font-size: 2em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    padding: 0 0 10px 0;
+    text-align: center;
+    width:100%;
+    color:#0572cf;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+/* ordered list */
+ol.round {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+    ol.round li {
+        margin: 25px 0;
+        padding-left: 45px;
+        font-size: 20px;
+    }
+
+        ol.round li.zero {
+            background: url("../imagens/orderedList0.png") no-repeat;
+        }
+
+        ol.round li.one {
+            background: url("../imagens/orderedList1.png") no-repeat;
+        }
+
+        ol.round li.two {
+            background: url("../imagens/orderedList2.png") no-repeat;
+        }
+
+        ol.round li.three {
+            background: url("../imagens/orderedList3.png") no-repeat;
+        }
+
+        ol.round li.four {
+            background: url("../imagens/orderedList4.png") no-repeat;
+        }
+
+        ol.round li.five {
+            background: url("../imagens/orderedList5.png") no-repeat;
+        }
+
+        ol.round li.six {
+            background: url("../imagens/orderedList6.png") no-repeat;
+        }
+
+        ol.round li.seven {
+            background: url("../imagens/orderedList7.png") no-repeat;
+        }
+
+        ol.round li.eight {
+            background: url("../imagens/orderedList8.png") no-repeat;
+        }
+
+        ol.round li.nine {
+            background: url("../imagens/orderedList9.png") no-repeat;
+        }
+
+ /* footer
+    ----------------------------------------------------------*/
+    footer .float-left,
+    footer .float-right {
+        float: none;
+    }
+
+    footer {
+        text-align: right;
+        height: auto;
+        padding-right: 20px;
+    }
+
+    footer p {
+        margin: 0;
+    }

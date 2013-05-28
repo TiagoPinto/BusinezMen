@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BusinezMen.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title><%: Page.Title %> - Businez Men</title>
+    <link href="css/dropdown-menu.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/site.css" media="screen" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js "></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="Scripts/jquery-1.7.1.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="center">
+        <img src="imagens/logo.png" /><nav>
+        <ul id="navigation" class="nav-main">
+	        <li><a runat="server" href="~/">Home</a></li>    
+            <li class="list"><a runat="server" href="~/Gestao_Cliente.aspx">Gestão de Clientes</a>
+	        <ul class="nav-sub">
+                <li><a runat="server" href="~/Cobertura_Cliente.aspx">Cobertura</a></li> 
+                <li><a runat="server" href="~/Procurar_Cliente.aspx">Procurar Cliente</a></li>
+		        <li><a runat="server" href="~/Estado_Cliente.aspx">Estado Cliente</a></li>
+		        <li><a runat="server" href="~/Editar_Cliente.aspx">Editar Cliente</a></li>       
+	        </ul></li>
+            <li class="list"><a runat="server" href="~/Gestao_Recursos.aspx">Gestão de Recursos</a>
+	        <ul class="nav-sub">
+                <li><a runat="server" href="~/Percurso_Comercial.aspx">Percurso Comercial</a></li>
+ 		        <li><a runat="server" href="~/Localizacao_Comercial.aspx">Localização Comercial</a></li>
+                <li><a runat="server" href="~/Vencimentos.aspx">Vencimentos</a></li>
+		        <li><a runat="server" href="~/Adicionar_Pessoal.aspx">Adicionar Pessoal</a></li>
+                <li><a runat="server" href="~/Remover_Pessoal.aspx">Remover Pessoal</a></li>
+	        </ul></li>    
+            <li><a runat="server" href="~/Estatisticas.aspx">Estatistícas</a></li>
+            <li class="list"><a runat="server" href="~/Gestao_Servico.aspx">Servicos</a>
+	        <ul class="nav-sub">
+                <li><a runat="server" href="~/Tipo_Servico.aspx">Todos os Serviços</a></li>
+ 		        <li><a runat="server" href="~/Adicionar_Servico.aspx">Adicionar Serviço</a></li>
+                <li><a runat="server" href="~/Editar_Servico.aspx">Editar Serviço</a></li>
+	        </ul></li>
+            <li class="list"><a href="#">Operador</a>
+	        <ul class="nav-sub">
+                <li><a runat="server" href="~/Lista_Telefonica.aspx">Listas Telefónicas</a></li>
+ 		        <li><a runat="server" href="~/Adicionar_Candidato.aspx">Adicionar Candidato</a></li>
+		        <li><a runat="server" href="~/Bloco_Notas.aspx">Bloco de Notas</a></li>
+                <li><a runat="server" href="~/Carteira_Pontos.aspx">Carteira de Pontos</a></li>
+	        </ul></li>
+            <li><a runat="server" href="~/Mensagens.aspx">Mensagens</a></li>   
+        </ul>
+    </nav>
+    </div>
+    <div>
+        <h2><%: Page.Title %></h2>
+    </div>
+    <div>
+        <section class="content-wrapper main-content clear-fix">
+            <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+        </section>
+    </div>
+<footer>
+    <div>
+        <p>&copy; <%: DateTime.Now.Year %> - Businez Men</p>
+    </div>
+</footer>
+</body></html>
+
